@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DDDWebAPI.Application.DTO\DDDWebAPI.Application.DTO.csproj" />
+    <ProjectReference Include="..\DDDWebAPI.Domain.Core\DDDWebAPI.Domain.Core.csproj" />
+    <ProjectReference Include="..\DDDWebAPI.Infrastruture.CrossCutting.Adapter\DDDWebAPI.Infrastruture.CrossCutting.Adapter.csproj" />
+  </ItemGroup>
+
+</Project>
