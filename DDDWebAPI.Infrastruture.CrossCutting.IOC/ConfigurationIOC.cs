@@ -36,8 +36,6 @@ namespace DDDWebAPI.Infrastruture.CrossCutting.IOC
             builder.RegisterType<MapperProduto>().As<IMapperProduto>();
             #endregion
 
-
-
             #endregion
 
         }

@@ -18,6 +18,8 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\DDDWebAPI.Application.DTO\DDDWebAPI.Application.DTO.csproj" />
+    <ProjectReference Include="..\DDDWebAPI.Application\DDDWebAPI.Application.csproj" />
     <ProjectReference Include="..\DDDWebAPI.Infrastruture.CrossCutting.IOC\DDDWebAPI.Infrastruture.CrossCutting.IOC.csproj" />
   </ItemGroup>
 
